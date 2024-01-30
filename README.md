@@ -61,5 +61,5 @@ Engine: Unreal 5.1
 
 **Thesis work** [SDL Generator](https://github.com/GBaath/SDL2-IslandGen-Examensarbete) <- First C++ Project!
 
-**Main Github Page** (GitHub)(https://github.com/GBaath) <- Check out the full-sized repos here!
+**Main Github Page** [GitHub](https://github.com/GBaath) <- Check out the full-sized repos here!
 
