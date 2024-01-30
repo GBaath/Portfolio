@@ -1,4 +1,4 @@
-# *Unreal Product COnfigurator*
+# *Unreal Product Configurator*
 <img src ""Images\ .gif" width="100%"/>
 
 ## *Description*
