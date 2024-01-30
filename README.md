@@ -18,14 +18,14 @@ Some Info restricted by NDA
 
 # Previous Projects
 
-## [***Wheelin' and Steelin'***](Wheelin'andSteelin'#wheelin-and-steelin <- Click)
+## [***Wheelin' and Steelin'***](Wheelin'andSteelin'#wheelin-and-steelin) <- Click!
 Development time: *2023 sep- 2023 oct*
 Engine: Unity
 Vr Dungeon Crawling
 
 ----
 
-## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click
+## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
 Development time: *2023 march - 2023 may*
 Engine: Unreal 5.1
 2 player Co-op exploration
