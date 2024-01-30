@@ -4,7 +4,7 @@
 ## *Description*
 
 This page is a showcase of some of the functionality I'm making at my internship at Rapid Images. Since this project is under an NDA I will be showcaseing without any context.
-I'm currently uploading some of the functions I write during this project to another **github page**(https://github.com/GBaath/UnrealFunctionLibraries/tree/main/.cpp) for future use.
+I'm currently uploading some of the functions I write during this project to another [**github page**](https://github.com/GBaath/UnrealFunctionLibraries/tree/main/.cpp) for future use.
 
 ----
 
