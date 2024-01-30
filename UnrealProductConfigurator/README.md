@@ -26,7 +26,7 @@ The changes consisted of auto adding delegates, and linking with variantset asse
 <details>
 <summary>UVariantButton</summary>
 
- ```
+ ```cpp
 
 #include "VariantButton.h"
 
@@ -75,7 +75,7 @@ void UVariantButton::NewIconFromVariantIndex(int32 SetIndex, int32 VariantIndex,
 <details>
 <summary>UFillGrid</summary>
 
- ```
+ ```cpp
 #include "FillGrid.h"
 
 void UFillGrid::UpdateContent(FFillGridData FillGridData, int32 NewContentCount, TArray<UUserWidget*>& OutArray){
