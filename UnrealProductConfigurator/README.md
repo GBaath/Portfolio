@@ -1,5 +1,5 @@
 # *Unreal Product Configurator*
-<img src ""Images\ .gif" width="100%"/>
+<img src="Images\" width="100%"/>
 
 ## *Description*
 
