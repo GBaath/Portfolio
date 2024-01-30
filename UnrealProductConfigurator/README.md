@@ -23,9 +23,9 @@ I've therefore begun making some modifications to most of the preset code.
 The biggest gripe I had with the default system was the setup and nesting of UMG elements. Since we weren't sure on how many configurations we were going to need I wrote new subclasses from the existing UButton and UUniformGridPanel.
 Mostly so that the actual UX designing could be iterated on much faster when we recieved more info.
 The changes consisted of auto adding delegates, and linking with variantset assets, as well as populating grids based on layout variables.
+```
 <details>
 <summary>UVariantButton</summary>
-```
 #include "VariantButton.h"
 
 void UVariantButton::OnClickDelegate()
@@ -63,6 +63,7 @@ void UVariantButton::NewIconFromVariantIndex(int32 SetIndex, int32 VariantIndex,
 
 }
 ```
+</details>
 <details>
 <summary>UFillGrid</summary>
 ```#include "FillGrid.h"
@@ -121,3 +122,4 @@ void UFillGrid::AddAndPoolChildren() {
 	}
 }
 ```
+</details>
