@@ -1,7 +1,7 @@
 # Portfolio
 Here are previews of some of the more recent projects and code I've worked on, click the links for more details (:
 
-# Currently Working On:
+# **Currently Working On:**
 
 ## [***Unreal Product Configurator***](UnrealProductConfigurator#unreal-product-configurator) <- Click!
 
@@ -20,6 +20,7 @@ Here are previews of some of the more recent projects and code I've worked on, c
   </tr>
 </table>
 
+----
 ----
 
 # Previous Projects
