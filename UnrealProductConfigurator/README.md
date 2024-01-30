@@ -193,3 +193,5 @@ The following images are a demo of my implementation of smooth claped orbiting a
   </tr>
 </table>
 The custom nodes used are in a separate repo, linked above (:
+
+## - More stuff will be added until the project is complete
