@@ -23,7 +23,7 @@ Here are previews of some of the more recent projects and code I've worked on, c
 ----
 ----
 
-# Previous Projects
+# *Previous Projects*
 
 ## [***Wheelin' and Steelin'***](Wheelin'andSteelin'#wheelin-and-steelin) <- Click!
 
