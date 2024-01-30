@@ -25,44 +25,64 @@ Mostly so that the actual UX designing could be iterated on much faster when we 
 The changes consisted of auto adding delegates, and linking with variantset assets, as well as populating grids based on layout variables.
 <details>
 <summary>UVariantButton</summary>
-```
-#include "VariantButton.h"
+```#include "FillGrid.h"
 
-void UVariantButton::OnClickDelegate()
-{
-	ClickedDelegate.Broadcast(Index);
+void UFillGrid::UpdateContent(FFillGridData FillGridData, int32 NewContentCount, TArray<UUserWidget*>& OutArray){
+
+	//set variables
+	GridData.ContentCount = NewContentCount;
+	GridData.ColumnsCount = FillGridData.ColumnsCount;
+	GridData.ContainedType = FillGridData.ContainedType;
+
+
+	AddAndPoolChildren();
+	ManageGridLayout(OutArray);
 }
 
-void UVariantButton::PostLoad()
-{
-	Super::PostLoad();
+void UFillGrid::AddAndPoolChildren() {
 
-	OnClicked.AddUniqueDynamic(this, &UVariantButton::OnClickDelegate);
-}
-
-//negative index for the thumbnail of the whole set
-void UVariantButton::NewIconFromVariantIndex(int32 SetIndex, int32 VariantIndex, ULevelVariantSets* VariantSets)
-{
-	UTexture2D* NewButtonTexture = nullptr;
-
-	if (VariantIndex >= 0) 
-		NewButtonTexture = VariantSets->GetVariantSet(SetIndex)->GetVariant(VariantIndex)->GetThumbnail();
-	else 
-		NewButtonTexture = VariantSets->GetVariantSet(SetIndex)->GetThumbnail();
-
-
-	if (NewButtonTexture == nullptr) {
-		//no thumbnail
-		UE_LOG(LogTemp, Warning, TEXT("Missing Thumbnail"));
-		return;
+	//clear excess children
+	int j = GetChildrenCount();
+	for (int i = j - 1; i >= 0; i--) {
+		if (i < GridData.ContentCount)
+			break;
+		UWidget* child = GetChildAt(i);
+		if (child) {
+			ChildPool.Add(child);
+			child->RemoveFromParent();
+		}
 	}
- 
-	FSlateBrush Brush = GetStyle().Normal;
-	Brush.SetResourceObject(NewButtonTexture);
-	WidgetStyle.SetNormal(Brush);
 
+	//re-add pooled widgets
+	for (int i = j; i < GridData.ContentCount; i++) {
+
+		if (ChildPool.Num() > 0) {
+			UWidget* widget = ChildPool.Last();
+			if (widget) {
+				AddChild(widget);
+				ChildPool.RemoveAt(ChildPool.Num() - 1);
+			}
+		}
+		else break;
+	}
+
+	//children count could have been updated from pool
+	j = GetChildrenCount();
+
+	//Create new widgets if pool has been emptied
+	for (int i = j; i < GridData.ContentCount; i++) {
+
+		if (GridData.ContainedType == nullptr) {
+			UE_LOG(LogTemp, Warning, TEXT("Missing fillgrid contain type, probably missing from the instanced struct"))
+				break;
+		}
+		UUserWidget* widget = CreateWidget(this, GridData.ContainedType);
+		AddChild(widget);
+	}
 }
 ```
+</details>
+
 </details>
 <details>
 <summary>UFillGrid</summary>
