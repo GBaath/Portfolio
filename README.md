@@ -5,13 +5,13 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 ## [***Unreal Product Configurator***](UnrealProductConfigurator#unreal-product-configurator) <- Click!
 
-Development time: *2023 nov - present*
+**Development time:** *2023 nov - present*
 
-Engine: Unreal 5.3
+**Engine:** Unreal 5.3
 
 *My first unreal project with proper use of c++*
 
-Some Info restricted by NDA
+**Some Info restricted by NDA**
 
 <table>
   <tr>
@@ -26,11 +26,11 @@ Some Info restricted by NDA
 
 ## [***Wheelin' and Steelin'***](Wheelin'andSteelin'#wheelin-and-steelin) <- Click!
 
-Development time: *2023 sep- 2023 oct*
+**Development time:** *2023 sep- 2023 oct*
 
-Engine: Unity
+**Engine:** Unity
 
-Vr Dungeon Crawling
+**Vr Dungeon Crawling**
 
 <table>
   <tr>
@@ -43,11 +43,11 @@ Vr Dungeon Crawling
 
 ## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
 
-Development time: *2023 march - 2023 may*
+**Development time:** *2023 march - 2023 may*
 
-Engine: Unreal 5.1
+**Engine:** Unreal 5.1
 
-2 player Co-op exploration
+**2 player Co-op exploration**
 
 <table>
   <tr>
