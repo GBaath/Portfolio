@@ -76,9 +76,6 @@ void UVariantButton::NewIconFromVariantIndex(int32 SetIndex, int32 VariantIndex,
 <summary>UFillGrid</summary>
 
  ```
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "FillGrid.h"
 
 void UFillGrid::UpdateContent(FFillGridData FillGridData, int32 NewContentCount, TArray<UUserWidget*>& OutArray){
