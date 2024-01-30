@@ -8,6 +8,7 @@ Here are previews of some of the more recent projects and code I've worked on, c
 Development time: *2023 nov - present*
 
 Engine: Unreal 5.3
+*My first unreal project with proper use of c++*
 
 Some Info restricted by NDA
 
