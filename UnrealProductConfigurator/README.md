@@ -25,7 +25,9 @@ Mostly so that the actual UX designing could be iterated on much faster when we 
 The changes consisted of auto adding delegates, and linking with variantset assets, as well as populating grids based on layout variables.
 <details>
 <summary>UVariantButton</summary>
-```
+
+ ```
+
 #include "VariantButton.h"
 
 void UVariantButton::OnClickDelegate()
@@ -66,11 +68,18 @@ void UVariantButton::NewIconFromVariantIndex(int32 SetIndex, int32 VariantIndex,
 	WidgetStyle.SetNormal(Brush);
 
 }
+
 ```
 </details>
+
 <details>
 <summary>UFillGrid</summary>
-```#include "FillGrid.h"
+
+ ```
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "FillGrid.h"
 
 void UFillGrid::UpdateContent(FFillGridData FillGridData, int32 NewContentCount, TArray<UUserWidget*>& OutArray){
 
@@ -125,5 +134,44 @@ void UFillGrid::AddAndPoolChildren() {
 		AddChild(widget);
 	}
 }
+
+
+void UFillGrid::ManageGridLayout(TArray<UUserWidget*>& OutArray) {
+
+	OutArray.Empty();
+	int i = 0;
+	for (UWidget* temp : GetAllChildren())
+	{
+		UUniformGridSlot* Widget = UWidgetLayoutLibrary::SlotAsUniformGridSlot(temp);
+
+		Widget->SetVerticalAlignment(VAlign_Center);
+		Widget->SetHorizontalAlignment(HAlign_Center);
+
+		//Enough children to split grid into columns?
+		if (GetChildrenCount() > GridData.NrOfRowUntilColumnSplit) {
+			if (GridData.ColumnsCount == 0)
+				break;
+
+			Widget->SetRow(i / GridData.ColumnsCount);
+			//widgets per row
+			Widget->SetColumn(i % GridData.ColumnsCount);
+		}
+		else{
+			Widget->SetRow(i);
+			//always atleast 1 column
+			Widget->SetColumn(0);
+		}
+		//someshits wrong heeeere
+		UUserWidget* casted = (UUserWidget*)temp;
+		if (casted != nullptr) 
+			OutArray.Add(casted);		
+
+
+
+		i++;
+	}
+}
+
 ```
+
 </details>
