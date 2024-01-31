@@ -16,7 +16,7 @@ The gameplay consists of exploring dungeon, and shotting enemies, while controll
 Luckily, really early on in the projects lifespan, I managed to find an existing wheelchair controller made by [**justinmajetich**](https://github.com/justinmajetich/vr-wheelchair) which I could easily get started with,
 most of the tweaks I made physics values, rotation locking, and collider smoothing. Needless to say, it took alot of *n*a*u*s*e*a trying to balance all the numbers.
 
-<img src="Images\wheelchariaction.gif" width="50%"/>
+<img src="Images\wheelchairaction.gif" width="50%"/>
 
 ----
 
