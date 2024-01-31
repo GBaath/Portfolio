@@ -20,7 +20,6 @@ I've therefore begun making some modifications to most of the preset code.
 ## - Less dependancies and blueprint clutter
 
 The biggest gripe I had with the default system was the setup and nesting of UMG elements. Since we weren't sure on how many configurations we were going to need I wrote new subclasses from the existing UButton and UUniformGridPanel.
-Mostly so that the actual UX designing could be iterated on much faster when we recieved more info.
 The changes consisted of auto adding delegates, and linking with variantset assets, as well as populating grids based on layout variables.
 <details>
 <summary>UVariantButton</summary>
@@ -172,8 +171,8 @@ void UFillGrid::ManageGridLayout(TArray<UUserWidget*>& OutArray) {
 
 </details>
 
-I also reduced a whole lot of blueprint dependencies from the preset project by nesting a lot of things that were completely unnecessarily sharing scope, actually making a night and day difference when it comes to navigating and scripting.
-This is a lot nicer to work with compared to the somewhat confusing mess that is the preset product configurator preset.
+I also reduced a whole lot of blueprint dependencies from the preset project by nesting a lot of things that were completely unnecessarily sharing scope, making a night and day difference when it comes to navigating and scripting.
+
 [BlueprintLink](https://blueprintue.com/blueprint/2s5nlr5o/)
 <img src="Images\VManagerControls_demo.png" width="50%"/>
 
