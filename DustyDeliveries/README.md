@@ -1,6 +1,6 @@
 # *Dusty Deliveries*
 
-<img src="Images\DustyDeliveries_01.png" width="100%"/>
+<img src="Images\dustydeliveriesdemo.gif" width="100%"/>
 
 [Itch.io page](https://yrgo-game-creator.itch.io/dusty-deliveries)  
 
@@ -15,6 +15,7 @@
 ## My Contrbutions
 
 *This project was made entirely using blueprints for Unrealscript examples check out a [newer repo](https://github.com/GBaath/Portfolio/tree/main/UnrealProductConfigurator#unreal-product-configurator)*
+
 
 ----
 
@@ -45,16 +46,41 @@ Super simple pickupsystem with data store in a widget blueprint which interact w
 [demo pickup](https://blueprintue.com/blueprint/bo9wc_ht/) 
 [HUD Widget](https://blueprintue.com/blueprint/6olfpms9/)
 
-
 ----
 
 # *Sand Serpent*
 
-The sand serpent roams in areas around the map
+*This blueprint is quite large, and I've definetly became a lot better at structuring blueprints since I wrote this one.*
+
+The sand serpent roams in areas around the map triggering a chase sequence when the ship gets within a radius.
+Since one of the game's objectives is collecting the meat of several serpents, the chase logic needed to be implemented in a way that allowed players to easily attack the serpent with the limited camera angles.
+
+The blueprint consists of a physics asset, which blends with an actual animation, and the movement is controlled by interpolating the serpent towards an invisible sphere, which recieves the actual movement force and target locations.
+This means that the serpent can smoothly merge in and out of the sand dunes, while still remaining realistically close to the surface.
+
+---
+
+The behavior, in summary, consists of roaming when out of player range, begin chase when entering range, following the side of the ship for x amount of time, and finally attacking and fleeing if not fended off.
+The following gifs are a demo of entering and finishing the chase sequence.
+
+<table>
+  <tr>
+    <td><img src="Images\serpentchasebeing_demo.gif"/></td>
+    <td><img src="Images\serpentAttackSequence_demo.gif"/></td>
+  </tr>
+</table>
+
+[Sand Serpent](https://blueprintue.com/blueprint/yanp-al5/)
 
 ----
 
 # *Adaptive Music System*
+
+One of my favorite things to implement in any game is adaptive music tracks, and this game became no exception.
+The soundtrack is composed of 3 main parts that controlled somewhat by gameplay action, as well as 2 bonus vertical tracks which syncs in intensity with the ship's movement speed and the steering.
+The difficult part was to get the different track to preload properly, and the solution for this was using the Quartz music system to mix it together.
+
+[MusicManager](https://blueprintue.com/blueprint/aewbyzs-/)
 
 ----
 
