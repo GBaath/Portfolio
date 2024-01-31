@@ -20,10 +20,24 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 ----
 
-
-----
-
 ## Previous Projects ##
+
+## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
+
+**Development time:** *2023 march - 2023 may*
+
+**Engine:** Unreal 5.1
+
+**2 player Co-op exploration**
+
+<table>
+  <tr>
+    <td width="50%"><img src="DustyDeliveries\Images\BoatFly.png" /></td>
+    <td width="50%"><img src="DustyDeliveries\Images\SerpentBite.png" /></td>
+  </tr>
+</table>
+
+---
 
 ## [***Wheelin' and Steelin'***](Wheelin'andStealin'#wheelin-and-steelin) <- Click!
 
@@ -41,21 +55,6 @@ Here are previews of some of the more recent projects and code I've worked on, c
 </table>
 
 ----
-
-## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
-
-**Development time:** *2023 march - 2023 may*
-
-**Engine:** Unreal 5.1
-
-**2 player Co-op exploration**
-
-<table>
-  <tr>
-    <td width="50%"><img src="DustyDeliveries\Images\BoatFly.png" /></td>
-    <td width="50%"><img src="DustyDeliveries\Images\SerpentBite.png" /></td>
-  </tr>
-</table>
 
 
 ## *Bonus links to other projects*
