@@ -186,7 +186,13 @@ The functionality that I needed for the camera were smooth stationary rotation, 
 In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component (so that others can tweak the main camera settings without messing up the version control).
 I found that most default rotation functions are quite confusing and hard to understand, so I kept the calculation mostly using vectors and euler angles.
 The following images are a demo of my implementation of smooth claped orbiting and static rotation:
-<img src="Images\SmoothOrbit_demo.gif" width="100%"/>
+<table>
+  <tr>
+    <td><img src="Images\SmoothOrbit_demo.gif"/></td>
+    <td><img src="Images\OrbitSmoothClampBlueprint_demo.PNG" /></td>
+  </tr>
+</table>
+
 The custom nodes used are in a separate repo, linked above (:
 
 ## - More stuff will be added until the project is complete
