@@ -8,7 +8,7 @@
 
 ## *Game description*
 
-**Dusty Deliveries** is a CO-OP adventure game where you together walk around on a ship. Set the course and engage the thrusters and explore the desert landscape!
+**Dusty Deliveries** is a CO-OP adventure game where you, together with a friend, manage and navigate a sandship. Set the course, engage the thrusters and explore the desert landscape!
 *Made by a team of 7 during a 7 week period*
 
 ----
