@@ -179,12 +179,14 @@ This is a lot nicer to work with compared to the somewhat confusing mess that is
 
 ## - Nicer Camera Controls
 
-The default camera was very lacking when it came to making modifications, and limiting view angles so I set out to make a better one. As I've been experimenting with a bunch of different methods of transformations, mostly getting stuck with rotators, I've managed to write a whole bunch of useful custom nodes that I stash in my [UnrealFunctionLibrary](https://github.com/GBaath/UnrealFunctionLibraries/blob/main/.cpp/CommonFunctions.cpp) repo.
+The default camera was very lacking when it came to making modifications, and limiting view angles so I set out to make a better one. 
+I've managed to write a whole bunch of useful custom nodes that I stash in my [UnrealFunctionLibrary](https://github.com/GBaath/UnrealFunctionLibraries/blob/main/.cpp/CommonFunctions.cpp) repo.
 
 The functionality that I needed for the camera were smooth stationary rotation, that could be clamped in different ways, as well as the same for camera orbiting.
-In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component (so that others can tweak the main camera settings without messing up the version control).
+In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component.
 I found that most default rotation functions are quite confusing and hard to understand, so I kept the calculation mostly using vectors and euler angles.
-The following images are a demo of my implementation of smooth claped orbiting and static rotation:
+
+**Implementation demo:**
 <table>
   <tr>
     <td><img src="Images\SmoothOrbit_demo.gif"/></td>
