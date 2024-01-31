@@ -1,5 +1,4 @@
 # *Unreal Product Configurator*
-<img src="Images\" width="100%"/>
 
 ## *Description*
 
