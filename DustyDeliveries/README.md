@@ -40,7 +40,7 @@ They interact with the player controllers using an interface, along with getting
 
 # *Inventory & Pickup*
 
-Super simple pickupsystem with data store in a widget blueprint which interact with drop off station to add score.
+Super simple pickup system with data store in a widget blueprint which interact with drop off station to add score.
 
 <img src="Images\CollectibleHUD.PNG" width="50%"/>
 
@@ -100,7 +100,7 @@ The difficult part was to get the different track to preload properly, and the s
   </tr>
 </table>
 
-Dynamic paramaters are exposed for use in particles systems so color, shape speed panning dissolving, etc. are to be set when using in a particle system.
+Dynamic paramaters are exposed for use in particle systems so color, shape, speed, panning, dissolving, etc. are to be set when using in a particle system.
 
 
 ---
