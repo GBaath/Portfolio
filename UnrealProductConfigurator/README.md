@@ -1,5 +1,4 @@
 # *Unreal Product Configurator*
-<img src="Images\" width="100%"/>
 
 ## *Description*
 
@@ -21,7 +20,6 @@ I've therefore begun making some modifications to most of the preset code.
 ## - Less dependancies and blueprint clutter
 
 The biggest gripe I had with the default system was the setup and nesting of UMG elements. Since we weren't sure on how many configurations we were going to need I wrote new subclasses from the existing UButton and UUniformGridPanel.
-Mostly so that the actual UX designing could be iterated on much faster when we recieved more info.
 The changes consisted of auto adding delegates, and linking with variantset assets, as well as populating grids based on layout variables.
 <details>
 <summary>UVariantButton</summary>
@@ -173,19 +171,21 @@ void UFillGrid::ManageGridLayout(TArray<UUserWidget*>& OutArray) {
 
 </details>
 
-I also reduced a whole lot of blueprint dependencies from the preset project by nesting a lot of things that were completely unnecessarily sharing scope, actually making a night and day difference when it comes to navigating and scripting.
-This is a lot nicer to work with compared to the somewhat confusing mess that is the preset product configurator preset.
+I also reduced a whole lot of blueprint dependencies from the preset project by nesting a lot of things that were completely unnecessarily sharing scope, making a night and day difference when it comes to navigating and scripting.
 [BlueprintLink](https://blueprintue.com/blueprint/2s5nlr5o/)
-<img src="Images\" width="100%"/>
+
+<img src="Images\VManagerControls_demo.png" width="50%"/>
 
 ## - Nicer Camera Controls
 
-The default camera was very lacking when it came to making modifications, and limiting view angles so I set out to make a better one. As I've been experimenting with a bunch of different methods of transformations, mostly getting stuck with rotators, I've managed to write a whole bunch of useful custom nodes that I stash in my [UnrealFunctionLibrary](https://github.com/GBaath/UnrealFunctionLibraries/blob/main/.cpp/CommonFunctions.cpp) repo.
+The default camera was very lacking when it came to making modifications, and limiting view angles so I set out to make a better one. 
+I've managed to write a whole bunch of useful custom nodes that I stash in my [UnrealFunctionLibrary](https://github.com/GBaath/UnrealFunctionLibraries/blob/main/.cpp/CommonFunctions.cpp) repo.
 
 The functionality that I needed for the camera were smooth stationary rotation, that could be clamped in different ways, as well as the same for camera orbiting.
-In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component (so that others can tweak the main camera settings without messing up the version control).
+In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component.
 I found that most default rotation functions are quite confusing and hard to understand, so I kept the calculation mostly using vectors and euler angles.
-The following images are a demo of my implementation of smooth claped orbiting and static rotation:
+
+**Implementation demo:**
 <table>
   <tr>
     <td><img src="Images\SmoothOrbit_demo.gif"/></td>

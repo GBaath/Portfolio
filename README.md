@@ -13,13 +13,6 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 **Some Info restricted by NDA**
 
-<table>
-  <tr>
-    <td width="50%"><img src="Images\.png" /></td>
-    <td width="50%"><img src="Images\.png" /></td>
-  </tr>
-</table>
-
 ----
 ----
 
