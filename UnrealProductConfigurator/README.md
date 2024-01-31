@@ -172,8 +172,8 @@ void UFillGrid::ManageGridLayout(TArray<UUserWidget*>& OutArray) {
 </details>
 
 I also reduced a whole lot of blueprint dependencies from the preset project by nesting a lot of things that were completely unnecessarily sharing scope, making a night and day difference when it comes to navigating and scripting.
-
 [BlueprintLink](https://blueprintue.com/blueprint/2s5nlr5o/)
+
 <img src="Images\VManagerControls_demo.png" width="50%"/>
 
 ## - Nicer Camera Controls
