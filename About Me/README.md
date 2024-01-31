@@ -19,12 +19,14 @@ I guess my favortie movie quote would be:
 So far this mindset is working pretty great for me, it's a lot easier to work with systems that you've rebuilt and understand jut as good as your own mind.
 Though true understanding of something never comes until you try to explain your findings to someone else and realising there was a better way of doing it all along.
 
-For some reason I'm kind of a big fan of refactoring and optimization, I guess that translates to me being somewhat of a perfectionist, but I prefer to call it "not setteling for mediocracy".
+The problems I love tackling the most are location/position, movement based or otherwhise vector or rotation based. I have a few examples of such problems linked in other subfolders of this repo.
+
+For some reason I'm also kind of a big fan of refactoring and optimization, I guess that translates to me being somewhat of a perfectionist, but I prefer to call it "not setteling for mediocracy".
 As you might've guessed by now, my biggest strength is my stubborness.
 
 
 
-My sworn enemies are quaternions and shall not rest until they're conquered and my partners in crime are vector3s and adaptive music.
+My sworn enemies are *q*u*a*t*e*r*n*i*o*n*s* (**I shall not rest until they're conquered**) and my partners in crime are **3vectors** and **adaptive music**.
 
 
 ---
@@ -49,7 +51,7 @@ My stress management and humbleness tend to be rather high.
 
 ----
 
-# I am also:
+## I am also:
 
 -A regular gamejam participant
 
