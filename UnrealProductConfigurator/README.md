@@ -188,8 +188,7 @@ I found that most default rotation functions are quite confusing and hard to und
 The following images are a demo of my implementation of smooth claped orbiting and static rotation:
 <table>
   <tr>
-    <td width="50%"><img src="Images\.png" /></td>
-    <td width="50%"><img src="Images\.png" /></td>
+    <td width="100%"><img src="Images\SmoothOrbit_demo.gif" /></td>
   </tr>
 </table>
 The custom nodes used are in a separate repo, linked above (:
