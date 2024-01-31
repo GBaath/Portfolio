@@ -76,12 +76,41 @@ The following gifs are a demo of entering and finishing the chase sequence.
 
 # *Adaptive Music System*
 
-One of my favorite things to implement in any game is adaptive music tracks, and this game became no exception.
 The soundtrack is composed of 3 main parts that controlled somewhat by gameplay action, as well as 2 bonus vertical tracks which syncs in intensity with the ship's movement speed and the steering.
 The difficult part was to get the different track to preload properly, and the solution for this was using the Quartz music system to mix it together.
 
 [MusicManager](https://blueprintue.com/blueprint/aewbyzs-/)
 
+
+---
+
+- [*Full SoundCloud Version*](https://soundcloud.com/user-932182958/dusty-deliveries-ogg)
+
 ----
 
 # *Particles & Materials* 
+
+-*Sandflow Material*
+
+<table>
+  <tr>
+    <td><img src="Images\MaterialGraph.PNG"/></td>
+    <td><img src="Images\MaterialPrevieww.gif"/></td>
+  </tr>
+</table>
+
+Dynamic paramaters are exposed for use in particles systems so color, shape speed panning dissolving, etc. are to be set when using in a particle system.
+
+
+---
+
+
+*Examples of usage*
+
+<table>
+  <tr>
+    <td><img src="Images\sandfall_screenshot.PNG"/></td>
+    <td><img src="Images\BoatTrail_dmeo.gif"/></td>
+  </tr>
+</table>
+
