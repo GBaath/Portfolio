@@ -3,7 +3,7 @@
 ## *Description*
 
 This page contains some fo the work I contributed with in the making of Wheelin' and Stealin'; a 7 week VR gameproject made by a team of 8. 
-The gameplay consists of exploring dungeon, and shooting enemies, while controlling a wheelchair.
+The gameplay consists of exploring dungeons, and shooting enemies, while controlling a wheelchair.
 The full repo can be found [Here](https://github.com/GBaath/VR)
 
 ----
