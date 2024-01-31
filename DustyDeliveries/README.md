@@ -50,6 +50,8 @@ Super simple pickupsystem with data store in a widget blueprint which interact w
 
 # *Sand Serpent*
 
+The sand serpent roams in areas around the map
+
 ----
 
 # *Adaptive Music System*
