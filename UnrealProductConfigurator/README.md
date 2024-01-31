@@ -189,7 +189,7 @@ The following images are a demo of my implementation of smooth claped orbiting a
 <table>
   <tr>
     <td><img src="Images\SmoothOrbit_demo.gif"/></td>
-    <td><img src="Images\OrbitSmoothClampBlueprint_demo.PNG" /></td>
+    <td><img src="Images\OrbitSmoothClampBlueprint_demo.png" /></td>
   </tr>
 </table>
 
