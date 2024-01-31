@@ -77,7 +77,7 @@ The following gifs are a demo of entering and finishing the chase sequence.
 
 # *Adaptive Music System*
 
-The soundtrack is composed of 3 main parts that controlled somewhat by gameplay action, as well as 2 bonus vertical tracks which syncs in intensity with the ship's movement speed and the steering.
+The soundtrack is composed of 3 main parts controlled somewhat by gameplay action, as well as 2 bonus vertical tracks which syncs in intensity with the ship's movement speed and the steering.
 The difficult part was to get the different track to preload properly, and the solution for this was using the Quartz music system to mix it together.
 
 [MusicManager](https://blueprintue.com/blueprint/aewbyzs-/)
