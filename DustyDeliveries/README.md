@@ -1,4 +1,4 @@
-![image](https://github.com/GBaath/Portfolio/assets/113012271/4c5c7a98-04b0-4d36-914c-7dcb5107c870)# *Dusty Deliveries*
+# *Dusty Deliveries*
 
 <img src="Images\DustyDeliveries_01.png" width="100%"/>
 
@@ -22,7 +22,6 @@
 
 *Note: The project is made in Unreal 5.1 and this version has a bugged controller list, preventing the use of local co-op with both mouse and keyboard. Thus, this controller is approximately twice as big as it could have been, were it made in a later engine version*
 [Dual Player Controller](https://blueprintue.com/blueprint/xo33kgx1/)
-<img src="Images\ShipStations.PNG" width="50%"/>
 
 ----
 
@@ -33,9 +32,19 @@ They interact with the player controllers using an interface, along with getting
 [Example Station (SpeedController)](https://blueprintue.com/blueprint/tjs49yt5/)
 
 
+<img src="Images\ShipStations.PNG" width="50%"/>
+
 ----
 
 # *Inventory & Pickup*
+
+Super simple pickupsystem with data store in a widget blueprint which interact with drop off station to add score.
+
+<img src="Images\CollectibleHUD.PNG" width="50%"/>
+
+[demo pickup](https://blueprintue.com/blueprint/bo9wc_ht/) 
+[HUD Widget](https://blueprintue.com/blueprint/6olfpms9/)
+
 
 ----
 
