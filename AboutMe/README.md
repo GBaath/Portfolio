@@ -6,12 +6,12 @@ Email: gustav.baath02@gmail.com
 
 ---
 
-<table align=“right”> 
-  <tr> 
-    <td width=“10%”><img src=“AboutMe\Images\MeSuit.png” /></td> 
-    <td width=“10%”><img src=“AboutMe\Images\MeFaltmossa.png”" /></td> 
-    <td width=“50%”><img src=“AboutMe\Images\meSax.jpg”" /></td> 
-  </tr> 
+<table>
+  <tr>
+    <td width="10%"><img src="Images\MeSuit.png" /></td>
+    <td width="10%"><img src="Images\MeFaltmossa.png"" /></td>
+    <td width="50%"><img src="Images\meSax.jpg"" /></td>
+  </tr>
 </table>
 
 
