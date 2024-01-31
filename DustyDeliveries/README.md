@@ -94,8 +94,8 @@ The difficult part was to get the different track to preload properly, and the s
 
 <table>
   <tr>
-    <td><img src="Images\MaterialGraph.PNG"/></td>
-    <td><img src="Images\MaterialPrevieww.gif"/></td>
+    <td ><img src="Images\MaterialGraph.PNG"/></td>
+    <td  width="30%"><img src="Images\MaterialPrevieww.gif"/></td>
   </tr>
 </table>
 
@@ -109,8 +109,8 @@ Dynamic paramaters are exposed for use in particles systems so color, shape spee
 
 <table>
   <tr>
-    <td><img src="Images\sandfall_screenshot.PNG"/></td>
-    <td><img src="Images\BoatTrail_dmeo.gif"/></td>
+    <td width="40%"><img src="Images\sandfall_screenshot.PNG"/></td>
+    <td><img src="Images\BoatTrail_demo.gif"/></td>
   </tr>
 </table>
 
