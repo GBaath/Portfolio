@@ -51,7 +51,7 @@ Super simple pickupsystem with data store in a widget blueprint which interact w
 
 # *Sand Serpent*
 
-*This blueprint is quite large, and I've definetly became a lot better at structuring blueprints since I wrote this one.*
+*This blueprint is quite large, and I've definetly become a lot better at structuring blueprints since I wrote this one.*
 
 The sand serpent roams in areas around the map triggering a chase sequence when the ship gets within a radius.
 Since one of the game's objectives is collecting the meat of several serpents, the chase logic needed to be implemented in a way that allowed players to easily attack the serpent with the limited camera angles.
