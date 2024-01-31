@@ -13,7 +13,7 @@ I'm currently uploading some of the functions I write during this project to ano
 
 ## **Optimized Preset**
 
-This project is begin made from scratch mostly by me and another intern, and so we used the built in Unreal product configurator preset to get started.
+This project is made from scratch mostly by me and another intern, and so we used the built in Unreal product configurator preset to get started.
 However, that preset, from what I found is a bit cluttered, unclear, and missing scalability and flexibilty in what, most importantly and how you're locked into the preset workflow.
 I've therefore begun making some modifications to most of the preset code.
 
