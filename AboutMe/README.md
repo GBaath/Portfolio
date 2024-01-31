@@ -6,12 +6,12 @@ Email: gustav.baath02@gmail.com
 
 ---
 
-<table>
-  <tr>
-    <td width="33%"><img src="Images\MeSuit.png" /></td>
-    <td width="33%"><img src="Images\meSax.png"" /></td>
-    <td width="33%"><img src="Images\MeFaltmossa.png"" /></td>
-  </tr>
+<table align=“right”> 
+  <tr> 
+    <td width=“10%”><img src=“Images\MeSuit.png” /></td> 
+    <td width=“10%”><img src=“Images\MeFaltmossa.png”" /></td> 
+    <td width=“50%”><img src=“Images\meSax.jpg”" /></td> 
+  </tr> 
 </table>
 
 
@@ -40,7 +40,7 @@ My sworn enemies are *q*u*a*t*e*r*n*i*o*n*s* (**I shall not rest until they're c
 
 ---
 
-## I am a few other things to I guess
+## I am a few other things too I guess
 
 Long before I became a programmer, for what I suppose would be half my life at this point, I've been a musician.
 I've played Saxophone in several different bands, mostly playing jazz on either alt. or baritone. As of writing this I'm currently playing in Uffe Big Band in Borås.
