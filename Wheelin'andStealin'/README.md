@@ -29,7 +29,7 @@ The room generation algorithm can be broken down into 3 parts: Spawning a basemo
 <img src="Images\DungeonGen_demo.gif" width="100%"/>
 
 The base module contains info about the room prefabs connection points, avaliable decor sets, as well as spawnpoints for loot and enemies.
-These variables are set from the prefab asset, making it easy for designers to create rooms fast. Since the connectors provide an element of random rotations and bonus modules, you can get a lot of contont to explore from less man-made assets.
+These variables are set from the prefab asset, making it easy for designers to create rooms fast. Since the connectors provide an element of random rotations and bonus modules, you can get a lot of content to explore from less man-made assets.
 
 <table>
   <tr>
