@@ -57,7 +57,7 @@ Here are previews of some of the more recent projects and code I've worked on, c
 ----
 
 
-## *Bonus links to other projects*
+## *More links*
 
 **Itch.io** - [GVB7](https://gvb7.itch.io/) <- Older unity projects and jam games!
 
@@ -65,3 +65,6 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 **Main Github Page** [GitHub](https://github.com/GBaath) <- Check out the full-sized repos here!
 
+ **Copy of CV** [CV](https://docs.google.com/document/d/1j3pqR7tGUoK3OjItGiE2QCi8GXGabEb0ygaZrnFryFo/edit?usp=sharing)
+
+ [**About Me**](AboutMe#about-me)
