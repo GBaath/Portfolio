@@ -234,7 +234,7 @@ public class RoomBase : MonoBehaviour
 </details>
 
 The basemodules are then connected to eachother, as well as sub modules, using connection points placed on the prafab (the blue dots in the image above). 
-As you enter a newly generated room, a new one is generated behind a new door, and the prvious one gets unloaded.
+As you enter a newly generated room, a new one is generated behind a new door, and the previous one gets unloaded.
 
 <table>
   <tr>
