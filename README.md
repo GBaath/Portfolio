@@ -7,6 +7,8 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 ## [***Unreal Product Configurator***](UnrealProductConfigurator#unreal-product-configurator) <- Click!
 
+**Contents: ** Camera management, preset optimization, UMG integration
+
 **Development time:** *2023 nov - present*
 
 **Engine:** Unreal 5.3
@@ -23,6 +25,8 @@ Here are previews of some of the more recent projects and code I've worked on, c
 ## Previous Projects ##
 
 ## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
+
+**Contents: ** Pawn controllers, Design solutions, Physics 
 
 **Development time:** *2023 march - 2023 may*
 
@@ -42,6 +46,8 @@ Here are previews of some of the more recent projects and code I've worked on, c
 ## [***Wheelin' and Steelin'***](Wheelin'andStealin'#wheelin-and-steelin) <- Click!
 
 **Development time:** *2023 sep- 2023 oct*
+
+**Contents: ** VR, Procedural generation, Asset structures
 
 **Engine:** Unity
 
