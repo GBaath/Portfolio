@@ -18,7 +18,7 @@ Email: gustav.baath02@gmail.com
 ## I am a game programmer:
 
 I love games, just like everyone else, but my brain is the kind that never seems to get enough stimulation and simply playing them is not enough.
-The biggest reason I got into game development is because of my undying tendencies to get hooked on mechanics that don't work the way want,
+The biggest reason I got into game development is because of my undying tendencies to get hooked on mechanics that don't work the way I want,
 and I simply don't want to wait for the developers to listen to my *obviously great* suggestions.
 
 I guess my favorite movie quote would be:
