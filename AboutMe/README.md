@@ -43,7 +43,7 @@ My sworn enemies are *q*u*a*t*e*r*n*i*o*n*s* (**I shall not rest until they're c
 ## I am a few other things too I guess
 
 Long before I became a programmer, for what I suppose would be half my life at this point, I've been a musician.
-I've played Saxophone in several different bands, mostly playing jazz on either alt. or baritone. As of writing this I'm currently playing in Uffe Big Band in Borås.
+I've played saxophone in several different bands, mostly playing jazz on either alt. or baritone. As of writing this I'm currently playing in Uffe Big Band in Borås.
 
 Since I spent a lot of time learning all sorts of music theory, I feel kind of obligated to incorporate that in game development.
 Luckily, It's super fun and rewarding to implement adaptive music. 
