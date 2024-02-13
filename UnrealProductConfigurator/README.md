@@ -183,7 +183,8 @@ I've managed to write a whole bunch of useful custom nodes that I stash in my [U
 
 The functionality that I needed for the camera were smooth stationary rotation, that could be clamped in different ways, as well as the same for camera orbiting.
 In summary: I implemented these functionalities by writing a few FRotator nodes, implemented in a camera movement component.
-I found that most default rotation functions are quite confusing and hard to understand, so I kept the calculation mostly using vectors and euler angles.
+During the development of this functionality I've developed a much better understanding of, and now feel very comfortable working with quaternions and more advanced geometric algebra.
+[Orbit Demo](https://blueprintue.com/blueprint/ovfeibwn/)
 
 **Implementation demo:**
 <table>
