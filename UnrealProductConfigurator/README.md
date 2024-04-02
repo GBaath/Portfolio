@@ -186,6 +186,47 @@ In summary: I implemented these functionalities by writing a few FRotator nodes,
 During the development of this functionality I've developed a much better understanding of, and now feel very comfortable working with quaternions and more advanced geometric algebra.
 [Orbit Demo](https://blueprintue.com/blueprint/ovfeibwn/)
 
+<details>
+<summary>RotInterpExampleCode</summary>
+
+ ```cpp
+FRotator UCommonFunctions::SmoothClampRotation(FRotator InRotator, FRotator ReferenceRotation, float DeltaTime, UPARAM(ref) double& Alpha, float& OutClampStrength, float InnerRadius = 15, float OuterRadius = 25, float ClampStrengthMultiplier = 1)
+{
+
+    OutClampStrength = 0;
+    //vector of inrot
+    FVector v = (InRotator.Quaternion()*ReferenceRotation.Quaternion().Inverse()).Euler();
+
+    //within bounds
+    if (v.Size() <= InnerRadius) {
+        return InRotator;
+    }
+
+    float factor = (OuterRadius - InnerRadius) / FMath::Clamp(OuterRadius - v.Size(), 1, 100);
+
+    FQuat QuatInRotator = InRotator.Quaternion()*ReferenceRotation.Quaternion().Inverse();
+    FQuat QuatInverseIn = QuatInRotator.Inverse().GetNormalized();
+    FQuat QuatScaledToMinRadius = FQuat(QuatInRotator.GetRotationAxis(), FMath::DegreesToRadians(InnerRadius));
+    FQuat QuatScaledToMaxRadius = FQuat(QuatInRotator.GetRotationAxis(), FMath::DegreesToRadians(OuterRadius));
+
+    //Recalculate InverseLerp
+    Alpha = UKismetMathLibrary::NormalizeToRange(v.Size(), InnerRadius, OuterRadius);
+
+    //Interp To Target
+    Alpha = FMath::Clamp(FMath::FInterpTo(Alpha, 0, DeltaTime, ClampStrengthMultiplier),0,1);
+
+    //for use to ex. scale input speed
+    OutClampStrength = Alpha;
+
+    //Slerped from outer towards inner
+    FQuat T = FQuat::Slerp(QuatScaledToMinRadius, QuatScaledToMaxRadius, Alpha);
+
+    return (T*ReferenceRotation.Quaternion()).Rotator();
+}
+```
+
+</details>
+
 **Implementation demo:**
 <table>
   <tr>
@@ -195,5 +236,9 @@ During the development of this functionality I've developed a much better unders
 </table>
 
 The custom nodes used are in a separate repo, linked above (:
+
+##  - Adaptable Camera Slerping
+
+## - Integration with custom preset system
 
 ## - More stuff will be added until the project is complete
