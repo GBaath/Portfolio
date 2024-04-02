@@ -239,6 +239,18 @@ The custom nodes used are in a separate repo, linked above (:
 
 ##  - Adaptable Camera Slerping
 
+Using the earlier mentioned rotation methods, it's possible to dynamically interpolate between freecam angles, and based on preset, assign properties such as limited axis angles, allowed rotation modes, or fading.
+A dynamic overview of specified areas is also in the works using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
+This demo video showcases some of theese bahaviors:
+
+[video not yet showcase cleared]
+
 ## - Integration with custom preset system
+
+As the built in variant manager is a bit lacking, especially when it comes to event calls when changing variants, we hade to make our own, there are a lot of different subgraphs, but the following should giva a *decent* overview of whats going on.
+
+[**Angle Setting Example**](https://blueprintue.com/blueprint/-g9zlyns/)
+
+[**Controls overview**](https://blueprintue.com/blueprint/873z-46x/)
 
 ## - More stuff will be added until the project is complete
