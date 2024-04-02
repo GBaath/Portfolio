@@ -237,13 +237,18 @@ FRotator UCommonFunctions::SmoothClampRotation(FRotator InRotator, FRotator Refe
 
 The custom nodes used are in a separate repo, linked above (:
 
-##  - Adaptable Camera Slerping
+## - Adaptable Camera Slerping
 
 Using the earlier mentioned rotation methods, it's possible to dynamically interpolate between freecam angles, and based on preset, assign properties such as limited axis angles, allowed rotation modes, or fading.
-A dynamic overview of specified areas is also in the works using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
 This demo video showcases some of theese bahaviors:
 
 [video not yet showcase cleared]
+
+---
+A dynamic overview of specified areas is also in the works using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
+
+<img src="Images\MeshVecGenScreenshot.PNG" width="50%"/>
+
 
 ## - Integration with custom preset system
 
