@@ -242,7 +242,10 @@ The custom nodes used are in a separate repo, linked above (:
 Using the earlier mentioned rotation methods, it's possible to dynamically interpolate between freecam angles, and based on preset, assign properties such as limited axis angles, allowed rotation modes, or fading.
 This demo video showcases some of theese bahaviors:
 
-[video not yet showcase cleared]
+
+https://github.com/GBaath/Portfolio/assets/113012271/c0fec4f4-c4de-482c-9697-246bbcc294bc
+
+
 
 ---
 A dynamic overview of specified areas is also in the works using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
