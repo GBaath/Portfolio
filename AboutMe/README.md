@@ -64,7 +64,7 @@ My stress management and humbleness tend to be rather high.
 
 -A regular gamejam participant
 
--Pretty good with vector math
+-Pretty good with geometric algebra
 
 -A homecook
 
