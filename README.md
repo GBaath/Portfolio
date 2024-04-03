@@ -17,6 +17,8 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 **Some Info restricted by NDA**
 
+<img src="UnrealProductConfigurator/Images/ConfigScenePreview.png" width="50%"/>
+
 ----
 
 
