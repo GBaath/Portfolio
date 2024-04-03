@@ -35,7 +35,7 @@ As you might've guessed by now, my biggest strength is my stubborness.
 
 
 
-My sworn enemies are *q*u*a*t*e*r*n*i*o*n*s* (**I shall not rest until they're conquered**) and my partners in crime are **3vectors** and **adaptive music**.
+My sworn enemies are *q*u*a*t*e*r*n*i*o*n*s* and maTrIxEs (**I shall not rest until they're conquered**) and my partners in crime are **3vectors** and **adaptive music**.
 
 
 ---
