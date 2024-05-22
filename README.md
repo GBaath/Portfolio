@@ -3,13 +3,30 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 ---
 
-# **Currently Working On:** 
+
+
+
+#** My Plugins**
+## [***Unreal Plugins***](https://github.com/GBaath/UnrealPlugins/tree/main) <- Click!
+
+**Contents**
+---
+*VectorFunctions*
+
+*MeshVectorGenerator*
+
+*OrbitCamera*
+
+
+----
+
+## Previous Projects ##
 
 ## [***Unreal Product Configurator***](UnrealProductConfigurator#unreal-product-configurator) <- Click!
 
 **Contents:** Camera management, preset optimization, UMG integration
 
-**Development time:** *2023 nov - present*
+**Development time:** *2023 nov - may 2024*
 
 **Engine:** Unreal 5.3
 
@@ -20,11 +37,6 @@ Here are previews of some of the more recent projects and code I've worked on, c
 <img src="UnrealProductConfigurator/Images/ConfigScenePreview.png" width="50%"/>
 
 ----
-
-
-----
-
-## Previous Projects ##
 
 ## [***Dusty Deliveries***](DustyDeliveries#dusty-deliveries) <- Click!
 
