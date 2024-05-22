@@ -248,7 +248,7 @@ https://github.com/GBaath/Portfolio/assets/113012271/c0fec4f4-c4de-482c-9697-246
 
 
 ---
-A dynamic overview of specified areas is also in the works using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
+A dynamic overview of specified areas was planned (but sadly scrapped) using [**this solution**](https://github.com/GBaath/MeshVectorGeneratorUnreal/tree/main) for dynamically generating interpolation points within ediotr specified bounds using meshes.
 
 <img src="Images\MeshVecGenScreenshot.PNG" width="50%"/>
 
@@ -260,5 +260,3 @@ As the built in variant manager is a bit lacking, especially when it comes to ev
 [**Angle Setting Example**](https://blueprintue.com/blueprint/-g9zlyns/)
 
 [**Controls overview**](https://blueprintue.com/blueprint/873z-46x/)
-
-## - More stuff will be added until the project is complete
