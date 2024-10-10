@@ -2,7 +2,7 @@
 Here are previews of some of the more recent projects and code I've worked on, click the links for more details (:
 
 ---
-# **Currently Working On:**
+# **Currently Working On:** (*Work In Progress*) 
 
 ## [***Myrmidon: Phantom Protocol***](Myrmidon#myrmidon)
 
