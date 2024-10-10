@@ -2,11 +2,22 @@
 Here are previews of some of the more recent projects and code I've worked on, click the links for more details (:
 
 ---
+# **Currently Working On:**
 
+## [***Myrmidon: Phantom Protocol***](Myrmidon#myrmidon)
 
+**Contents:** Systems Programming, Audio & Music Programming, Level Design 
 
+**Development time:** *2024 april - present*
 
-#** My Plugins**
+**Engine:** Unreal 5.3
+
+**Single Player Real Time Tactics**
+
+---
+
+# **My Plugins**
+
 ## [***Unreal Plugins***](https://github.com/GBaath/UnrealPlugins/tree/main) <- Click!
 
 **Contents**
@@ -20,7 +31,7 @@ Here are previews of some of the more recent projects and code I've worked on, c
 
 ----
 
-## Previous Projects ##
+# **Previous Projects**
 
 ## [***Unreal Product Configurator***](UnrealProductConfigurator#unreal-product-configurator) <- Click!
 
