@@ -5,6 +5,29 @@ Myrmidon is a top-down, isometric, real-time tactics stealth game set in a bruta
 The player takes control of up to 5 characters with different abilities and strengths to overcome the enemy in both open-solution strategy sections,
 as well as more streamlined, one-solution puzzle sections.
 
+<table>
+  <tr>
+    <td><img src="Images\scene-1.png"/></td>
+    <td><img src="Images\scene-2.png"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="Images\scene-3.png"/></td>
+    <td><img src="Images\scene-4.png"/></td>
+    <td><img src="Images\scene-5.png"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="Images\takedown_alarm.gif"/></td>
+    <td><img src="Images\takedown_warehouse.gif"/></td>
+    <td><img src="Images\viewcones_large_2.gif"/></td>
+  </tr>
+</table>
+
 ---
 
 ## *Current Contributions*
@@ -22,10 +45,16 @@ When i joined this startup, they had a temporary camera system in place, but we 
 ---
 ## Hacking System
 
+<table>
+  <tr>
+    <td><img src="Images\hack_and_shortcircuit.gif"/></td>
+    <td><img src="Images\myrmidon_4.gif" /></td>
+  </tr>
+</table>
 
 ---
 ## Level Design
-
+<img src="Images\levellayout.PNG" width="50%"/>
 
 ---
 ## Music Programming
