@@ -14,17 +14,17 @@ as well as more streamlined, one-solution puzzle sections.
 
 <table>
   <tr>
-    <td><img src="Images\scene-3.png"/></td>
-    <td><img src="Images\scene-4.png"/></td>
-    <td><img src="Images\scene-5.png"/></td>
+    <td width = "33%"><img src="Images\scene-3.png"/></td>
+    <td width = "33%"><img src="Images\scene-4.png"/></td>
+    <td width = "33%"><img src="Images\scene-5.png"/></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="Images\takedown_alarm.gif"/></td>
-    <td><img src="Images\takedown_warehouse.gif"/></td>
-    <td><img src="Images\viewcones_large_2.gif"/></td>
+    <td width = "33%"><img src="Images\takedown_alarm.gif"/></td>
+    <td width = "33%"><img src="Images\takedown_warehouse.gif"/></td>
+    <td width = "33%"><img src="Images\viewcones_large_2.gif"/></td>
   </tr>
 </table>
 
