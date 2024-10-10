@@ -7,12 +7,17 @@ as well as more streamlined, one-solution puzzle sections.
 
 ---
 
-## *Main Contributions*
+## *Current Contributions*
 
 ---
 
 ## Camera System
+The camera in this game is largely based on my [*camera plugin*](https://github.com/GBaath/UnrealPlugins/tree/main/Plugins/GB_OrbitCamera) (more info on the development of this can be found [*here*](https://github.com/GBaath/Portfolio/tree/main/UnrealProductConfigurator#--nicer-camera-controls)) with a few modifications and extentions, with the main one being better panning and smooth level bounds.
 
+### - Hooking the plugin into the exsiting project
+When i joined this startup, they had a temporary camera system in place, but we wanted to switch it out fr a more flexible, self contained version, i.e. my camera plugin. This meant replacing the default plugin input and communication with the existing component and interface based system, as well as incorporating some new types of controls to limit the camera smoothly within the levelbounds.
+
+*[W.I.P] (TODO: Images, Event Calls, Panning, Smooth Bounds Clamping)*
 
 ---
 ## Hacking System
